@@ -7,7 +7,7 @@ namespace GradeBook.GradeBooks
     {
         public StandandGradeBook(string name) : base(name)
         {
-            Type = GreadBookType.Standard;
+            Type = GradeBookType.Standard;
         }
     }
 }
