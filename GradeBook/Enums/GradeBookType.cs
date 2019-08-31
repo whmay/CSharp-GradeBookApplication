@@ -1,10 +1,12 @@
-﻿using System;
+﻿
 namespace GradeBook.Enums
 {
-    public class GreadBookType
+    public enum GreadBookType
     {
-        public GreadBookType()
-        {
-        }
+        Standard,
+        Ranked,
+        ESNU,
+        OneToFour,
+        SixPoint
     }
 }
